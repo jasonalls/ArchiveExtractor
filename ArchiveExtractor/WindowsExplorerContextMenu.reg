@@ -1,0 +1,19 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.zip\shell\ExtractHere]
+@="Extract All Here"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.zip\shell\ExtractHere\command]
+@="\"C:\\Program Files\\ArchiveExtractor\\ArchiveExtractor.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.7z\shell\ExtractHere]
+@="Extract All Here"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.7z\shell\ExtractHere\command]
+@="\"C:\\Program Files\\ArchiveExtractor\\ArchiveExtractor.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.rar\shell\ExtractHere]
+@="Extract All Here"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.rar\shell\ExtractHere\command]
+@="\"C:\\Program Files\\ArchiveExtractor\\ArchiveExtractor.exe\" \"%1\""
